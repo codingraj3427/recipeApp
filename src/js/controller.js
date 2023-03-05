@@ -149,10 +149,9 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err);
   }
 };
-const newfeature=function()
-{
-  console.log("Welcome to the application");
-}
+const newfeature = function () {
+  console.log('Welcome to the application I am Rajarshi');
+};
 
 // publisher subscripber pattern
 const init = function () {

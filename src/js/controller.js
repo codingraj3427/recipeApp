@@ -149,6 +149,10 @@ const controlAddRecipe = async function (newRecipe) {
     addRecipeView.renderError(err);
   }
 };
+const newfeature=function()
+{
+  console.log("Welcome to the application");
+}
 
 // publisher subscripber pattern
 const init = function () {
@@ -160,7 +164,7 @@ const init = function () {
   recipeview.addHandlerUpdateServings(controlServings);
   recipeview.addHandlerBookmark(controlAddBookmark);
   addRecipeView.addHandlerUplaod(controlAddRecipe);
-  console.log('welcome');
+  newfeature();
 };
 
 init();
